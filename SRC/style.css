@@ -1,0 +1,48 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  background-color: #f0f0f0;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; /* Center text inside */
+}
+
+/* If .forms is inside body and also needs to center children,
+   keep flexbox here, otherwise remove if not needed */
+.forms {
+  display: flex;
+  flex-direction: column; /* Stack form items vertically */
+  align-items: center; /* Center form items horizontally */
+}
+
+/* Style for a preview text or area */
+.Preview {
+  color: rgb(0, 10, 2);
+  font-weight: 200;
+  font-size: 20px;
+  margin: 10px 0;
+  border: 1px solid black; /* Added border style */
+  border-radius: 5px;
+  padding: 10px; /* Optional: for spacing inside */
+}
+
+/* Heading style */
+h1 {
+  color: rgb(240, 129, 85);
+  font-weight: 700;
+  font-size: 64px;
+  margin: 6px 0;
+}
+
+/* Paragraph style */
+p {
+  font-size: 18px;
+  margin: 12px 0;
+}
