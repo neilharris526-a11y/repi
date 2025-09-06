@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Copy your website source code into Nginx's default public folder
-COPY SRC/ /usr/share/nginx/html
+COPY SRC/Index.html
 
 # Expose port 80
 EXPOSE 80
